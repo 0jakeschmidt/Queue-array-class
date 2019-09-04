@@ -1,0 +1,41 @@
+
+You are going to be required to use git (and github) correctly.  To avoid you from assuming
+that git and github are just a place to turn in your homework and to encourage you to use
+it as a revision control system.  Program 1 has additional rquirements on how you commit
+you homework.
+
+1. clone your repo to the linux machines.  You will need to commit the changes in the correct
+order.  Change the queue_array.h file or change the name the example code) Make many design decisions, 
+include what STL library you are using for the queue array.
+
+2.  Add any includes and get the array variable declared correctly.
+
+3.  Write and TEST the Asize method.
+
+4. Commit that change to the repo. The comment will be "Asize method written and tested"
+
+5.  Write and test the Enqueue method.  commit the change to repo, the comment will be "Enqueue method 
+written and tested"
+
+6.  Write and test the Qsize method.  commit the change to repo, the comment will be "Qsize method 
+written and tested"
+
+7.  Write and test the QAsize method.  commit the change to repo, the comment will be "QAsize method 
+written and tested"
+
+8.  Write and test the Dequeue method.  commit the change to repo, the comment will be "Dequeue method 
+written and tested"
+
+9.  Finally write and test the Qstate method.  Finally commit the change to repo with the comment "Qstate
+method written and tested"
+
+10.  If you haven't been, make sure you push all the commits to github.
+
+11.  You may have more commits after this of your own design and comments.    If after you commit a change you 
+discover a error in your code, you should fix it.  But you must commit that before the next method.  So example 
+you find an error in dequeue while writing Qstate.  Commit the changes to dequeue and explain the fix.  But
+NO Qstate code can be included in that commit.
+
+Note:  Do not have any other methods to commit before they are listed.  So if at the commit for Asize and the dequeue
+method is present, YOU WILL LOSE POINTS.  To point of this part is learn to commit code for revision control 
+systems correctly and in a matter this is easy to understand.
