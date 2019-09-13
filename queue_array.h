@@ -101,6 +101,16 @@ etype QueueArray<etype>::Dequeue(){
     }
     return 0;
 }
+// loops through and adds up all of the items in all of the queues
+template <class etype>
+int QueueArray<etype>::QAsize(){
+
+    int total=0;
+    for(int i=0; i< size; i++){
+        total = total + array[i].size();
+    }
+    return total;
+}
 
 // destructor
 template <class etype>
