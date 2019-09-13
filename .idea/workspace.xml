@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30a8adbe-ad15-42f2-a577-351fcee68659" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/makefile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prog1-example.h" afterPath="$PROJECT_DIR$/prog1-example.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver" afterPath="$PROJECT_DIR$/driver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver.cpp" afterPath="$PROJECT_DIR$/driver.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver.o" afterPath="$PROJECT_DIR$/driver.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/queue_array.h" afterPath="$PROJECT_DIR$/queue_array.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="driver.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="driver.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/driver.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="396">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -75,21 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queue_array.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="queue_array.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/queue_array.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1052">
-              <caret line="123" column="32" lean-forward="true" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+            <state relative-caret-position="134">
+              <caret line="115" column="68" lean-forward="false" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
               <folding>
                 <element signature="e#806#819#0" expanded="true" />
                 <element signature="e#1404#1417#0" expanded="true" />
                 <element signature="e#1728#1741#0" expanded="true" />
                 <element signature="e#1892#1905#0" expanded="true" />
-                <element signature="e#2202#2215#0" expanded="true" />
-                <element signature="e#2520#2533#0" expanded="true" />
-                <element signature="e#2746#2759#0" expanded="true" />
-                <element signature="e#3009#3022#0" expanded="true" />
-                <element signature="e#3400#3413#0" expanded="true" />
+                <element signature="e#2212#2225#0" expanded="true" />
+                <element signature="e#2427#2440#0" expanded="true" />
+                <element signature="e#2820#2833#0" expanded="true" />
+                <element signature="e#3085#3098#0" expanded="true" />
+                <element signature="e#3816#3829#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,9 +116,9 @@
       <list>
         <option value="$PROJECT_DIR$/examplemake/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/prog1-example.h" />
-        <option value="$PROJECT_DIR$/driver.cpp" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/queue_array.h" />
+        <option value="$PROJECT_DIR$/driver.cpp" />
       </list>
     </option>
   </component>
@@ -202,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567877276727</updated>
-      <workItem from="1567877284373" duration="8685000" />
+      <workItem from="1567877284373" duration="11002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8685000" />
+    <option name="totallyTimeSpent" value="11002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="951" extended-state="6" />
@@ -328,29 +329,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/driver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queue_array.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="123" column="32" lean-forward="true" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+        <state relative-caret-position="134">
+          <caret line="115" column="68" lean-forward="false" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
           <folding>
             <element signature="e#806#819#0" expanded="true" />
             <element signature="e#1404#1417#0" expanded="true" />
             <element signature="e#1728#1741#0" expanded="true" />
             <element signature="e#1892#1905#0" expanded="true" />
-            <element signature="e#2202#2215#0" expanded="true" />
-            <element signature="e#2520#2533#0" expanded="true" />
-            <element signature="e#2746#2759#0" expanded="true" />
-            <element signature="e#3009#3022#0" expanded="true" />
-            <element signature="e#3400#3413#0" expanded="true" />
+            <element signature="e#2212#2225#0" expanded="true" />
+            <element signature="e#2427#2440#0" expanded="true" />
+            <element signature="e#2820#2833#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#3816#3829#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

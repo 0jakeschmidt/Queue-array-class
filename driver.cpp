@@ -20,9 +20,10 @@ int main()
 
   cout << "Size of the int queue array is " << qai.Asize()
        << endl;
+    
   cout << "Total number of elements in the char queue array is "
        << qac.QAsize() << endl;
-  
+
   cout << endl;
   for (i = 0; i < 5; i++) {
     r = qai.Enqueue(i, 0);
@@ -61,10 +62,12 @@ int main()
        << qac.Qsize(2) << endl;
   cout << "Number of elements in the fourth queue in char queue array is "
        << qac.Qsize(3) << endl;
+
   cout << "Total number of elements in the char queue array is "
        << qac.QAsize() << endl;
 
   cout << endl;
+    exit(0);
 
   cbuf = qac.Qstate(6);
   cout << "Elements in the seventh queue in char queue array are";

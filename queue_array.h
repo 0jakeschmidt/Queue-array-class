@@ -112,6 +112,28 @@ int QueueArray<etype>::QAsize(){
     return total;
 }
 
+
+// this copies the items in the queue at the index into an array returns pointer to array
+template <class etype>
+etype* QueueArray<etype>::Qstate(int index){
+
+    int qSize = Qsize(index); // this uses the qsize function to get qSize
+
+    int space = sizeof(etype)*qSize; // gets the size of this data type and how much of it
+
+    etype* arrayNew = NULL; // point this array at null
+
+    arrayNew = new etype[space]; // make it the proper size
+
+    for(int i=0; i< qSize; i++){ // loop through the queue
+
+        arrayNew[i] = array[index].front(); // copy front item from queue into array
+        array[index].push(arrayNew[i]);  // put this item onto back of the queue
+        array[index].pop(); // remove it from the front of the queue
+    }
+    return arrayNew;  // returns the pointer to the array
+
+}
 // destructor
 template <class etype>
 QueueArray<etype>::~QueueArray(){
