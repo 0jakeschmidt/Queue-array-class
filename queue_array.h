@@ -78,19 +78,7 @@ int QueueArray<etype>::Enqueue(const etype &item ,const int index){
 
     return 0;
 }
-// should dequeue an item from the first non empty array
-template <class etype>
-etype QueueArray<etype>::Dequeue(){
 
-    for (int i=0; i< size; i++){
-        if(!array[i].empty()){
-            etype temp = array[i].front();
-            array[i].pop();
-            return temp;
-        }
-    }
-    return 0;
-}
 // return the size of the queue that is at the index in the array
 template <class etype>
 int QueueArray<etype>::Qsize(int index){
@@ -101,37 +89,7 @@ int QueueArray<etype>::Qsize(int index){
     return array[index].size();
 }
 
-// loops through and adds up all of the items in all of the queues
-template <class etype>
-int QueueArray<etype>::QAsize(){
 
-    int total=0;
-    for(int i=0; i< size; i++){
-        total = total + array[i].size();
-    }
-    return total;
-}
-// this copies the items in the queue at the index into an array returns pointer to array
-template <class etype>
-etype* QueueArray<etype>::Qstate(int index){
-
-    int qSize = Qsize(index);
-
-    int space = sizeof(etype)*qSize;
-
-    etype* arrayNew = NULL;
-
-    arrayNew = new etype[space];
-
-    for(int i=0; i< qSize; i++){
-
-        arrayNew[i] = array[index].front();
-        array[index].push(arrayNew[i]);
-        array[index].pop();
-    }
-    return arrayNew;
-
-}
 // destructor
 template <class etype>
 QueueArray<etype>::~QueueArray(){
