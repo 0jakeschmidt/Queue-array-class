@@ -88,7 +88,19 @@ int QueueArray<etype>::Qsize(int index){
     }
     return array[index].size();
 }
+// should dequeue an item from the first non empty array
+template <class etype>
+etype QueueArray<etype>::Dequeue(){
 
+    for (int i=0; i< size; i++){
+        if(!array[i].empty()){
+            etype temp = array[i].front(); // first grab the element at the front
+            array[i].pop(); // then pop the item off the queue
+            return temp;
+        }
+    }
+    return 0;
+}
 
 // destructor
 template <class etype>
