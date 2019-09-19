@@ -22,7 +22,7 @@ Anything not working:
 https://www.youtube.com/watch?v=i3tYp88YHbI
 
 
-grading 490<BR>
+grading 49/50<BR>
 * compiles and runs (10 points)
   * output correct? yes
 * enqueue (7 points) yes
