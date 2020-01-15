@@ -9,12 +9,6 @@ Makefile
   
   make all
   ./driver
- 
-  
-  I didn't receive any help on this project other than watching a few videos on 
-  creating Makefiles 
-https://www.youtube.com/watch?v=i3tYp88YHbI
-
 
 grading 49/50<BR>
 * compiles and runs (10 points)
